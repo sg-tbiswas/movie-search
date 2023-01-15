@@ -1,0 +1,38 @@
+.star-rating,
+.back-stars,
+.front-stars {
+  display: flex;
+}
+
+/*---------- star rating ----------*/
+
+.star-rating {
+  align-items: center;
+  font-size: 3em;
+  margin-top: 5px;
+  display: inline-block;
+}
+.back-stars {
+  color: #fff;
+  position: relative;
+}
+.back-stars .fa.fa-star-o {
+  font-size: 20px !important;
+  color: #151515;
+}
+.front-stars .fa.fa-star {
+  font-size: 20px !important;
+}
+.front-stars {
+  color: #151515;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  font-size: 40px !important;
+  transition: all 0.5s;
+}
+
+.percent {
+  color: #bb5252;
+  font-size: 1.5em;
+}
